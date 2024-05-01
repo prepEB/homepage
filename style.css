@@ -40,6 +40,7 @@ body {
   }
   .btn {
     text-decoration: none;
+  }
   #button1 {
     width: 240px;
     background-color: #fff;
@@ -79,6 +80,7 @@ body {
     #button2 {
       margin-right: auto;
       margin-left: auto;
+    }
     }
     main {
       padding-top: 30px;
