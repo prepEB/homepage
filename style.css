@@ -82,8 +82,10 @@ body {
       margin-right: auto;
       margin-left: auto;
     }
-    }
     main {
       padding-top: 30px;
+    }
+    #note {
+      line-height: 22px;
     }
   }
