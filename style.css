@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    font-family: "josefin sans";
+  }
+  header {
+    position: sticky;
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
+  }
+  #title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  #prepEB {
+    font-size: 40px;
+  }
+  #nav {
+    margin-right: 10px;
+    float: right;
+    font-size: 25px;
+    background-color: #f3f6f8;
+    border-radius: 42px;
+    height: 42px;
+    width: 42px;
+    align-content: center;
+    text-align: center;
+  }
+  main {
+    background-color: #f3f6f8;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  #note {
+    font-size: 18px;
+  }
+  #button1 {
+    width: 240px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(6, 170, 6);
+    color: rgb(6, 170, 6);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: "josefin sans";
+  }
+  #button2 {
+    width: 240px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(35, 180, 216);
+    color: rgb(35, 180, 216);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: "josefin sans";
+  }
+  @media only screen and (min-width: 701px) {
+    .extra {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    #button1 {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    #button2 {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    main {
+      padding-top: 30px;
+    }
+  }
