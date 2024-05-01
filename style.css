@@ -38,6 +38,8 @@ body {
   #note {
     font-size: 18px;
   }
+  .btn {
+    text-decoration: none;
   #button1 {
     width: 240px;
     background-color: #fff;
