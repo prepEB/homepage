@@ -145,6 +145,7 @@ body {
       padding-top: 12px;
       padding-bottom: 7px;
       width: 242px;
+      transition: 300ms;
     }
     #button2 {
       margin-right: auto;
@@ -155,6 +156,7 @@ body {
       padding-top: 12px;
       padding-bottom: 7px;
       width: 242px;
+      transition: 300ms;
     }
     main {
       padding-top: 30px;
