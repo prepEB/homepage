@@ -18,12 +18,13 @@ body {
     font-size: 40px;
   }
   #nav {
+    padding-top: 8px;
     margin-right: 10px;
     float: right;
     font-size: 25px;
     background-color: #f3f6f8;
     border-radius: 42px;
-    height: 42px;
+    height: 34px;
     width: 42px;
     align-content: center;
     text-align: center;
