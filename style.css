@@ -52,8 +52,9 @@ body {
     color: rgb(6, 170, 6);
     font-weight: 700;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
+    font-family: "josefin sans";
   }
   #button2 {
     width: 240px;
@@ -64,8 +65,9 @@ body {
     color: rgb(35, 180, 216);
     font-weight: 700;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
+    font-family: "josefin sans";
   }
   @media only screen and (min-width: 701px) {
     .extra {
