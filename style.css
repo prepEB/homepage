@@ -95,10 +95,10 @@ body {
   #views {
     position: fixed;
     bottom: -2px;
-    left: 49px;
+    left: 0px;
     font-size: 20px;
     padding-right: 10px;
-    padding-left: 45px;
+    padding-left: 54px;
     padding-top: 6px;
     padding-bottom: 4px;
     border-top-right-radius: 15px;
@@ -113,7 +113,7 @@ body {
     left: -42px;
     color: #fff;
     padding-right: 0px;
-    background-color: rgb(35, 180, 216);
+    background: transparent;
   }
   @keyframes fadeout {
     0%{opacity: 1;}
