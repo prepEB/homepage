@@ -50,7 +50,6 @@ body {
     text-decoration: none;
   }
   #button1 {
-    cursor: pointer;
     width: 240px;
     background-color: #fff;
     margin-bottom: 10px;
@@ -62,10 +61,6 @@ body {
     padding-bottom: 10px;
     font-family: "josefin sans";
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  }
-  #btn1 {
-    text-decoration: none;
-    color: rgb(6, 170, 6);
   }
   #button1:hover {
     box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
@@ -82,7 +77,6 @@ body {
     transition: 300ms;
   }
   #button2 {
-    cursor: pointer;
     width: 240px;
     background-color: #fff;
     margin-bottom: 10px;
@@ -94,10 +88,6 @@ body {
     padding-bottom: 10px;
     font-family: "josefin sans";
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  }
-  #btn2 {
-    text-decoration: none;
-    color: rgb(35, 180, 216);
   }
   footer {
     background-color: #f3f6f8;
