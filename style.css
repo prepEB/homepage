@@ -89,6 +89,16 @@ body {
     font-family: "josefin sans";
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   }
+  #views {
+    float: left;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 8px;
+    background-color: #0099cc;
+    color: #fff;
+    font-family: "josefin sans";
+    height: 27px;
+  }
   @keyframes fadeout {
     0%{opacity: 1;}
     100%{opacity: 0;};
