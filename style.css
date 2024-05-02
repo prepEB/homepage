@@ -89,15 +89,31 @@ body {
     font-family: "josefin sans";
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   }
+  footer {
+    background-color: #f3f6f8;
+  }
   #views {
-    float: left;
+    position: fixed;
+    bottom: -2px;
+    left: 49px;
     font-size: 20px;
-    padding-left: 15px;
-    padding-top: 8px;
-    background-color: #0099cc;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    border-top-right-radius: 15px;
+    background-color: rgb(35, 180, 216);
     color: #fff;
     font-family: "josefin sans";
-    height: 27px;
+  }
+  #viewcount {
+    font-family: "josefin sans";
+    position: fixed;
+    bottom: -5px;
+    left: -42px;
+    color: #fff;
+    padding-right: 0px;
+    background-color: rgb(35, 180, 216);
   }
   @keyframes fadeout {
     0%{opacity: 1;}
