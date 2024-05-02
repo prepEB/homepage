@@ -150,7 +150,7 @@ body {
       transition: 300ms;
     }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 700px) and (orientation: portrait) {
     #prepEB {
       font-size: 35px;
     }
