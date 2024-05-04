@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #f3f6f8;
   }
   header {
     position: sticky;
@@ -37,7 +38,6 @@ body {
   }
   main {
     font-family: "lexend deca";
-    background-color: #f3f6f8;
     height: 100vh;
     padding-left: 20px;
     padding-right: 20px;
@@ -45,6 +45,9 @@ body {
   }
   #note {
     font-size: 18px;
+  }
+  #big-note {
+    font-size: 15px;
   }
   .btn {
     text-decoration: none;
@@ -62,7 +65,47 @@ body {
     font-family: "josefin sans";
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   }
+  #buttonxi {
+    width: 240px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: rgb(6, 170, 6);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: "josefin sans";
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  #buttonxii {
+    width: 240px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: rgb(35, 180, 216);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: "josefin sans";
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
   #button1:hover {
+    box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
+    padding-top: 17px;
+    padding-bottom: 12px;
+    width: 242px;
+    transition: 300ms;
+  }
+  #buttonxi:hover {
+    box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
+    padding-top: 17px;
+    padding-bottom: 12px;
+    width: 242px;
+    transition: 300ms;
+  }
+  #buttonxii:hover {
     box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
     padding-top: 17px;
     padding-bottom: 12px;
@@ -89,31 +132,11 @@ body {
     font-family: "josefin sans";
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   }
-  footer {
-    background-color: #f3f6f8;
+  #select {
+    font-weight: 700;
   }
-  #views {
-    position: fixed;
-    bottom: -2px;
-    left: 0px;
-    font-size: 20px;
-    padding-right: 10px;
-    padding-left: 58px;
-    padding-top: 6px;
-    padding-bottom: 4px;
-    border-top-right-radius: 15px;
-    background-color: rgb(35, 180, 216);
-    color: #fff;
-    font-family: "josefin sans";
-  }
-  #viewcount {
-    font-family: "josefin sans";
-    position: fixed;
-    bottom: -5px;
-    left: -42px;
-    color: #fff;
-    padding-right: 0px;
-    background: transparent;
+  #clickh {
+    font-size: 15px;
   }
   @keyframes fadeout {
     0%{opacity: 1;}
@@ -129,6 +152,18 @@ body {
       padding-bottom: 10px;
       font-size: 20px;
     }
+    #buttonxi {
+      width: 300px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      font-size: 20px;
+    }
+    #buttonxii {
+      width: 300px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      font-size: 20px;
+    }
     #button2 {
       width: 300px;
       padding-top: 15px;
@@ -136,6 +171,20 @@ body {
       font-size: 20px;
     }
     #button1:hover {
+      box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
+      padding-top: 17px;
+      padding-bottom: 12px;
+      width: 302px;
+      transition: 300ms;
+    }
+    #buttonxi:hover {
+      box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
+      padding-top: 17px;
+      padding-bottom: 12px;
+      width: 302px;
+      transition: 300ms;
+    }
+    #buttonxii:hover {
       box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
       padding-top: 17px;
       padding-bottom: 12px;
@@ -166,7 +215,29 @@ body {
       margin-right: auto;
       margin-left: auto;
     }
+    #buttonxi {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    #buttonxii {
+      margin-right: auto;
+      margin-left: auto;
+    }
     #button1:active {
+      box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
+      padding-top: 17px;
+      padding-bottom: 12px;
+      width: 242px;
+      transition: 300ms;
+    }
+    #buttonxi:active {
+      box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
+      padding-top: 17px;
+      padding-bottom: 12px;
+      width: 242px;
+      transition: 300ms;
+    }
+    #buttonxii:active {
       box-shadow: 2px 2px 5px rgba(82, 63, 105, 0.2);
       padding-top: 17px;
       padding-bottom: 12px;
@@ -189,7 +260,4 @@ body {
     }
   }
   @media only screen and (max-width: 700px) and (orientation: landscape) {
-    #views {
-      padding-left: 61px;
-    }
   }
